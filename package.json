@@ -1,0 +1,21 @@
+{
+  "name": "tic-tac-toe",
+  "version": "0.0.0",
+  "description": "tic-tac-toe ===========",
+  "main": "ttt.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/klamping/tic-tac-toe.git"
+  },
+  "author": "Kevin Lamping",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/klamping/tic-tac-toe/issues"
+  },
+  "devDependencies": {
+    "chai": "~1.8.1"
+  }
+}
