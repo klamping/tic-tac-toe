@@ -4,7 +4,7 @@
   "description": "tic-tac-toe ===========",
   "main": "ttt.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha *.spec.js"
   },
   "repository": {
     "type": "git",
