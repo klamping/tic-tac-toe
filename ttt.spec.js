@@ -1,12 +1,15 @@
 /* jshint node:true */
-var expect = require('chai').expect;
-var TTT = require('./ttt.js');
-
 describe('tic tac toe', function () {
     var ttt;
 
     beforeEach(function () {
-        ttt = new TTT();
+        // Load the service's module
+        module('ttt');
+
+
+        inject(function (TTT) {
+            ttt = new TTT();
+        });
     });
 
     describe('spot', function () {
